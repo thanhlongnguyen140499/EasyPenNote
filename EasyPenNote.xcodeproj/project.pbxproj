@@ -11,6 +11,13 @@
 		D90F3B9E2C9B187F00552DDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F3B9D2C9B187F00552DDB /* ContentView.swift */; };
 		D90F3BA02C9B188100552DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F3B9F2C9B188100552DDB /* Assets.xcassets */; };
 		D90F3BA32C9B188100552DDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F3BA22C9B188100552DDB /* Preview Assets.xcassets */; };
+		D931FD5F2C9E63EE007449AE /* NoteCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931FD5E2C9E63EE007449AE /* NoteCategoryView.swift */; };
+		D931FD612C9E6C69007449AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931FD602C9E6C69007449AE /* Constants.swift */; };
+		D931FD632C9E6CC8007449AE /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931FD622C9E6CC8007449AE /* NoteItemView.swift */; };
+		D96CBDAB2C9DAAFF00DF9A9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CBDAA2C9DAAFF00DF9A9A /* HomeView.swift */; };
+		D96CBDAD2C9DAC1800DF9A9A /* NoteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CBDAC2C9DAC1800DF9A9A /* NoteCategory.swift */; };
+		D96CBDAF2C9DBA8900DF9A9A /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96CBDAE2C9DBA8900DF9A9A /* NoteItem.swift */; };
+		D9E7BF702C9C7C0A00FB757D /* PencilKitCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7BF6F2C9C7C0A00FB757D /* PencilKitCanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		D90F3B9D2C9B187F00552DDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D90F3B9F2C9B188100552DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D90F3BA22C9B188100552DDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D931FD5E2C9E63EE007449AE /* NoteCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCategoryView.swift; sourceTree = "<group>"; };
+		D931FD602C9E6C69007449AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D931FD622C9E6CC8007449AE /* NoteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
+		D96CBDAA2C9DAAFF00DF9A9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D96CBDAC2C9DAC1800DF9A9A /* NoteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCategory.swift; sourceTree = "<group>"; };
+		D96CBDAE2C9DBA8900DF9A9A /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		D9E7BF6F2C9C7C0A00FB757D /* PencilKitCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitCanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +65,11 @@
 		D90F3B9A2C9B187F00552DDB /* EasyPenNote */ = {
 			isa = PBXGroup;
 			children = (
-				D90F3B9B2C9B187F00552DDB /* EasyPenNoteApp.swift */,
-				D90F3B9D2C9B187F00552DDB /* ContentView.swift */,
-				D90F3B9F2C9B188100552DDB /* Assets.xcassets */,
+				D96783472C9C7A730027F4AB /* App */,
+				D96783482C9C7A900027F4AB /* CommonViews */,
+				D96783492C9C7AD40027F4AB /* Features */,
+				D967834A2C9C7AE90027F4AB /* Models */,
+				D96783462C9C7A550027F4AB /* Resources */,
 				D90F3BA12C9B188100552DDB /* Preview Content */,
 			);
 			path = EasyPenNote;
@@ -65,6 +81,83 @@
 				D90F3BA22C9B188100552DDB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D931FD5C2C9E63C7007449AE /* NoteCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				D931FD5E2C9E63EE007449AE /* NoteCategoryView.swift */,
+			);
+			path = NoteCategoryView;
+			sourceTree = "<group>";
+		};
+		D931FD5D2C9E63D8007449AE /* NoteItemView */ = {
+			isa = PBXGroup;
+			children = (
+				D931FD622C9E6CC8007449AE /* NoteItemView.swift */,
+			);
+			path = NoteItemView;
+			sourceTree = "<group>";
+		};
+		D96783462C9C7A550027F4AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D90F3B9F2C9B188100552DDB /* Assets.xcassets */,
+				D931FD602C9E6C69007449AE /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D96783472C9C7A730027F4AB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D90F3B9B2C9B187F00552DDB /* EasyPenNoteApp.swift */,
+				D90F3B9D2C9B187F00552DDB /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D96783482C9C7A900027F4AB /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		D96783492C9C7AD40027F4AB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D931FD5C2C9E63C7007449AE /* NoteCategoryView */,
+				D931FD5D2C9E63D8007449AE /* NoteItemView */,
+				D96CBDA92C9DAAF000DF9A9A /* HomeView */,
+				D9E7BF6E2C9C7BE400FB757D /* PencilCanvasView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D967834A2C9C7AE90027F4AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D96CBDAC2C9DAC1800DF9A9A /* NoteCategory.swift */,
+				D96CBDAE2C9DBA8900DF9A9A /* NoteItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D96CBDA92C9DAAF000DF9A9A /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				D96CBDAA2C9DAAFF00DF9A9A /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		D9E7BF6E2C9C7BE400FB757D /* PencilCanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				D9E7BF6F2C9C7C0A00FB757D /* PencilKitCanvasView.swift */,
+			);
+			path = PencilCanvasView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96CBDAF2C9DBA8900DF9A9A /* NoteItem.swift in Sources */,
+				D9E7BF702C9C7C0A00FB757D /* PencilKitCanvasView.swift in Sources */,
+				D931FD632C9E6CC8007449AE /* NoteItemView.swift in Sources */,
+				D96CBDAB2C9DAAFF00DF9A9A /* HomeView.swift in Sources */,
 				D90F3B9E2C9B187F00552DDB /* ContentView.swift in Sources */,
 				D90F3B9C2C9B187F00552DDB /* EasyPenNoteApp.swift in Sources */,
+				D96CBDAD2C9DAC1800DF9A9A /* NoteCategory.swift in Sources */,
+				D931FD5F2C9E63EE007449AE /* NoteCategoryView.swift in Sources */,
+				D931FD612C9E6C69007449AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +383,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +417,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
